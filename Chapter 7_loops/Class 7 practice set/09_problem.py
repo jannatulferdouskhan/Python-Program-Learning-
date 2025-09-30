@@ -1,0 +1,15 @@
+#  Write a program to print the following star pattern.
+#  * * *
+#  *   *      for n = 3
+#  * * *
+
+a=int(input("Enter the value: "))
+
+for i in range(1,a+1):
+     for j in range(1,a+1):
+         if(i==1 or j==1 or i==a or j==a):
+              print("*", end=" ")
+              
+         else:
+              print(" ", end=" ")
+     print("")      

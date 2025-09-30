@@ -1,0 +1,1 @@
+print(marks[80])
